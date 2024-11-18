@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
 @RestController
-@RequestMapping("/api/anti-heroes")
+@RequestMapping("api/anti-heroes")
 public class AntiHeroController {
     private final AntiHeroService antiHeroService;
     private final ModelMapper modelMapper;
